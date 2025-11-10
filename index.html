@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cara Kerja Internet — Sederhana</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1><a href="#">Cara Kerja Internet</a></h1>
+      <nav class="topnav">
+        <a href="#overview">Ringkasan</a>
+        <a href="#http">HTTP/HTTPS</a>
+        <a href="#domain">Domain</a>
+        <a href="#hosting">Hosting</a>
+        <a href="#dns">DNS</a>
+        <a href="#browser">Browser</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="overview" class="card">
+      <h2>Ringkasan — Cara Kerja Internet</h2>
+      <p>Internet adalah jaringan komputer global. Saat Anda membuka sebuah alamat, perangkat meminta alamat IP melalui DNS, lalu terhubung ke server melalui protokol (HTTP/HTTPS). Server mengirimkan kembali file yang dirender browser.</p>
+    </section>
+
+    <section id="http" class="card">
+      <h2>HTTP &amp; HTTPS</h2>
+      <p>HTTP: protokol untuk transfer dokumen web. HTTPS: HTTP + TLS (enkripsi).</p>
+    </section>
+
+    <section id="domain" class="card">
+      <h2>Nama Domain</h2>
+      <p>Nama domain adalah alamat mudah dibaca (mis: contoh.com) yang dipetakan ke alamat IP melalui DNS.</p>
+    </section>
+
+    <section id="hosting" class="card">
+      <h2>Hosting</h2>
+      <p>Hosting menempatkan file situs di server yang selalu online agar dapat diakses lewat internet.</p>
+    </section>
+
+    <section id="dns" class="card">
+      <h2>DNS</h2>
+      <p>DNS menerjemahkan nama domain menjadi alamat IP. Sistem ini terdistribusi (root &gt; TLD &gt; authoritative).</p>
+    </section>
+
+    <section id="browser" class="card">
+      <h2>Browser</h2>
+      <p>Browser meminta, menerima, dan merender konten. Subsystem utamanya: networking, parser, render engine, JS engine.</p>
+    </section>
+
+    <section id="refs" class="card">
+      <h2>Referensi</h2>
+      <ul>
+        <li>MDN — HTTP: https://developer.mozilla.org</li>
+        <li>Google Developers — HTTPS: https://developers.google.com</li>
+        <li>ICANN — https://www.icann.org</li>
+        <li>MDN — How browsers work: https://developer.mozilla.org</li>
+      </ul>
+    </section>
+
+    <footer class="card small">Petunjuk: Pisahkan file ini menjadi <code>index.html</code> dan <code>styles.css</code>. Upload ke GitHub (repo: cara-kerja-internet) lalu aktifkan GitHub Pages atau deploy ke Netlify/Vercel.</footer>
+  </main>
+</body>
+</html>
